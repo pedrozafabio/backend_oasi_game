@@ -1,0 +1,29 @@
+{
+	"name": "backend_festival_game",
+	"version": "1.0.0",
+	"description": "Backend for the game part of a digital music festival solution",
+	"main": "server.js",
+	"scripts": {
+		"start": "TEST=kappa node server",
+		"dev": "nodemon server",
+		"swagger-autogen": "node Swagger.js"
+	},
+	"author": "Mad Pixel",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.26",
+		"mongoose-auto-increment": "^5.0.1",
+		"morgan": "^1.10.0",
+		"node-fetch": "^2.6.1",
+		"swagger-autogen": "^1.2.5",
+		"swagger-jsdoc": "^4.2.0",
+		"swagger-ui-express": "^4.1.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
